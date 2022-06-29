@@ -9,7 +9,7 @@ import { importer } from "./services/importer";
 //import { MDBRipple } from "mdb-react-ui-kit";
 
 export default function App() {
-  importer();
+  console.log("importer" + importer());
 
   return (
     <div>
