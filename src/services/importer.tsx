@@ -9,11 +9,9 @@ export function importer() {
   async function getData() {
     try {
       const response = await fetch(link);
-      setTodos(await response.json());
+      setData(await response.json());
     } catch (e) {
       console.log(e);
-    } finally {
-      setLoading(false);
     }
   }
 }
