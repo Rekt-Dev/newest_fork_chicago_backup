@@ -5,15 +5,12 @@ import { Link } from "react-router-dom";
 import { Card } from "./components/Card";
 import { json } from "./services/json";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Importer } from "./components/Importer";
-import { artworkRetriever } from "./services/artworkRetriever";
-import {obj} from "./components/Importer"
+import { importer } from "./services/importer";
 //import { MDBRipple } from "mdb-react-ui-kit";
 
 export default function App() {
-  Importer();
+  importer();
 
-  console.log(`this is obj rendered from app ${obj}`)
   return (
     <div>
       <Header />
