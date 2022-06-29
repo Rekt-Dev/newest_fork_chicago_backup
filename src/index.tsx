@@ -3,7 +3,6 @@ import * as ReactDOMClient from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import { HoverCard } from "./components/HoverCard";
-
 import { GoToArtist } from "./components/GoToArtist";
 import { OpenCard } from "./components/OpenCard";
 
