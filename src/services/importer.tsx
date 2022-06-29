@@ -8,7 +8,7 @@ export function importer() {
   const [data, setData] = useState("");
   async function getData() {
     try {
-      const response = await fetch(link);
+      const response = fetch(link);
       setData(await response.json());
       data1 = data;
     } catch (e) {
