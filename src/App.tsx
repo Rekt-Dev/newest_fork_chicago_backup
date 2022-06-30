@@ -14,7 +14,7 @@ export default function App() {
   return (
     <div>
       <Header />
-      <div className="centered">
+      <div className="">
         {json.map((obj) => (
           <div className="">
             <Card
