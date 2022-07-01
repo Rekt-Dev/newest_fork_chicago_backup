@@ -6,7 +6,6 @@ import { Card } from "./components/Card";
 import { json } from "./services/json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { importer } from "./services/importer";
-//import { MDBRipple } from "mdb-react-ui-kit";
 
 export default function App() {
   console.log("importer" + importer());
