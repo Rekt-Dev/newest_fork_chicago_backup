@@ -5,13 +5,14 @@ import { Link } from "react-router-dom";
 import { Card } from "./components/Card";
 import { json } from "./services/json";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { importer } from "./services/importer";
+import { Importer } from "./services/Importer";
 
 export default function App() {
-  importer();
   return (
     <div>
       <Header />
+      <Importer />
+
       <div className="">
         {json.map((obj) => (
           <div className="">
