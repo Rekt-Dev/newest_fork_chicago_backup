@@ -1,6 +1,5 @@
 import { useState } from "react";
 //import { requestOptions } from "../services/requestOptions";
-export let obj: any;
 
 export function Importer() {
   const link = "https://api.artic.edu/api/v1/artworks?limit=100";
