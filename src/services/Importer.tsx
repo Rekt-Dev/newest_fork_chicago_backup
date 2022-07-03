@@ -4,6 +4,7 @@ import { useState } from "react";
 export function Importer() {
   const link = "https://api.artic.edu/api/v1/artworks?limit=100";
   let data1;
+  let data2
   const [data, setData] = useState("");
   async function getData() {
     try {
