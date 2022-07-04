@@ -9,7 +9,7 @@ export function Importer() {
   async function getData() {
     try {
       const response = await fetch(link);
-      setData(await response.json());
+      setData( response.json());
       data1 = data;
       console.log(`this is response ${response}`);
       console.log(`this is data ${data}`);
