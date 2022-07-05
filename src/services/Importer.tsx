@@ -15,6 +15,8 @@ export function Importer() {
       console.log(`this is data ${data}`);
     } catch (e) {
       console.log(e);
+    } finally {
+      console.log("st printing the finally");
     }
     getData();
   }
