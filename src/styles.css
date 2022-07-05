@@ -56,3 +56,14 @@ button {
   width: 200px;
   font-size: 24px;
 }
+
+flex {
+  flex-wrap: wrap;
+}
+
+.center {
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+}

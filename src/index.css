@@ -82,3 +82,11 @@ button {
   width: 12rem;
   font-size: 18px;
 }
+
+
+  .center {
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+  }
