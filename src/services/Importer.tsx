@@ -2,7 +2,7 @@ import { useState } from "react";
 //import { requestOptions } from "../services/requestOptions";
 
 export function Importer() {
-  const link = "https://api.artic.edu/api/v1/artworks?limit=100";
+  const link = "https://api.artic.edu/api/v1/artworks?limit=20";
   let data1;
   let data2;
   const [data, setData] = useState("");
